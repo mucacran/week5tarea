@@ -5,10 +5,10 @@
     "description": "Poder hacer bien este trabajo",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "https://week5tarea.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
