@@ -2,13 +2,13 @@
   "swagger": "2.0",
   "info": {
     "title": "My API - Week 5",
-    "description": "Poder hacer bien este trabajo",
+    "description": "Poder ",
     "version": "1.0.0"
   },
-  "host": "https://week5tarea.onrender.com",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/": {
@@ -20,6 +20,13 @@
             "description": "OK"
           }
         }
+      }
+    },
+    "/swagger/api-docs": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
       }
     },
     "/curriculum/": {
@@ -115,7 +122,7 @@
                   "example": "any"
                 },
                 "gustos": {
-                  "example": ["any"]
+                  "example": "any"
                 }
               }
             }
